@@ -1,0 +1,15 @@
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.avatar__img {
+    border-radius: 3.125rem;
+}
+
+.chevron-down {
+    background: url('../../icon-chevron-down.svg') no-repeat;
+    width: 10px;
+    height: 10px;
+}
