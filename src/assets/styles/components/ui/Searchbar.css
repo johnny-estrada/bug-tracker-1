@@ -8,7 +8,6 @@
 }
 
 .search__input {
-    cursor: pointer;
     outline: none;
     max-width: 10.8125rem;
     min-height: 2rem;
