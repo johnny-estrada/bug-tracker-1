@@ -1,4 +1,4 @@
-import '../../assets/styles/components/ui/Logo.css'
+import './Logo.css'
 
 function Logo() {
   return (
@@ -11,10 +11,8 @@ function Logo() {
           width="30px"
           height="30px"
         />
-        <h1 className="nav__logo-title">Bug Tracker</h1>
+        <span className="logo-title">Bug Tracker</span>
       </a>
-
-      <h2 className="nav__output">Welcome, Johnny!</h2>
     </>
   );
 }
