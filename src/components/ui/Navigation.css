@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    margin-top: 2.25rem;
+}
+
+.link {
+    display: flex;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    align-items: center;
+    color: #828FA3;
+    text-decoration: none;
+    gap: 1rem;
+    width: 80%;
+    padding: 15px 32px;
+    border-radius: 0 50px 50px 0;
+}
+
+.link:hover {
+    background-color:  #FFF;
+    color: #635FC7;
+}
+
+.active {
+    background-color:  #635FC7;
+    color: #fff;
+}
