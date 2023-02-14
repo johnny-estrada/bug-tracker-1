@@ -8,3 +8,7 @@
     min-height: 100%;
     border-right: #3E3F4E solid 2px;
 }
+
+.sidebar-header {
+    margin-bottom: 88px;
+}

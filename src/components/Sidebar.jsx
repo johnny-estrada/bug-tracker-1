@@ -5,12 +5,10 @@ import "./Sidebar.css";
 function Sidebar() {
   return (
     <aside className="sidebar">
-      <header>
+      <header className="sidebar-header">
         <Logo />
       </header>
-      <nav>
-        <Navigation />
-      </nav>
+      <Navigation />
     </aside>
   );
 }
