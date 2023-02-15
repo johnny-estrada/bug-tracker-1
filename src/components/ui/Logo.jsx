@@ -11,7 +11,7 @@ function Logo() {
           width="30px"
           height="30px"
         />
-        <span className="logo-title">Bug Tracker</span>
+        <span className="logo-title">Issue Tracker</span>
       </a>
     </>
   );
