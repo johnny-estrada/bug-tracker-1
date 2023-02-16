@@ -1,0 +1,13 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    left: 0;
+    top: 0;
+    background-color: #2B2C37;
+    color: #fff;
+    width: 20vw;
+    min-height: 100vh;
+    border-right: hsl(236, 11%, 25%) solid 1.5px;
+}
+

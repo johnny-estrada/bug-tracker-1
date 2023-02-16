@@ -1,0 +1,18 @@
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.avatar__btn {
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    background: url('../../avatar.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 3.125rem;
+    height: 3.125rem;
+}
+

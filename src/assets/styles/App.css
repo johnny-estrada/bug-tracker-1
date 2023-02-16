@@ -9,6 +9,13 @@
   box-sizing: border-box;
 }
 
+/* Set core body defaults */
+body {
+  background-color: #20212C;
+  font-family: 'Roboto', sans-serif;
+  text-rendering: optimizeSpeed;
+}
+
 /* Remove default margin */
 body,
 h1,
@@ -33,26 +40,6 @@ ul{
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
-}
-
-/* Set core body defaults */
-body {
-  background-color: #20212C;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block;
 }
 
 /* Inherit fonts for inputs and buttons */
