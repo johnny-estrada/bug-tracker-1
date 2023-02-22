@@ -11,7 +11,7 @@
 
 /* Set core body defaults */
 body {
-  background-color: #20212C;
+  background-color: #0D1117;
   font-family: 'Roboto', sans-serif;
   text-rendering: optimizeSpeed;
 }
@@ -66,3 +66,6 @@ select {
   }
 }
 
+h1 {
+  color: #F4F7FD;
+}
