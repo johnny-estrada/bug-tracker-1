@@ -1,10 +1,9 @@
-import "../../assets/styles/components/ui/Avatar.css";
+import "../../assets/styles/Avatar.css";
 
 function Avatar() {
   return (
     <div className="avatar">
-      <img className="avatar__img" src="../../avatar.jpg" width='45px' height='45px' />
-      <div className="chevron-down"></div>
+      <button className="avatar__btn"></button>
     </div>
   );
 }
