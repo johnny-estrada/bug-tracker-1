@@ -1,18 +1,19 @@
-import './Logo.css'
+import { Link } from "react-router-dom";
+import "../../assets/styles/Logo.css";
 
 function Logo() {
   return (
     <>
-      <a href="#" className="logo-container">
+      <Link to="/" className="logo">
         <img
-          src="../logo.svg"
-          className="nav__logo"
-          alt="Issue tracker logo"
+          className="logo__img"
+          src="../../logo-bars.svg"
+          alt="Logo"
           width="30px"
           height="30px"
         />
-        <span className="logo-title">Issue Tracker</span>
-      </a>
+        <span className="logo__text">Issue Tracker</span>
+      </Link>
     </>
   );
 }
