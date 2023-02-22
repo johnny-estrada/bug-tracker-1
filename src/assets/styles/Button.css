@@ -1,0 +1,24 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: hsl(216, 28%, 7%);
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    padding: 0.625rem;
+    width: 48px;
+    height: 48px;
+    border: hsl(225, 4%, 20%) solid 1px;
+}
+
+.button:hover {
+    background: hsl(220, 68%, 94%);
+}
+
+.button__img {
+    align-items: center;
+    border-radius: 50%;
+}
+
