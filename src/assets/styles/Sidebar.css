@@ -1,13 +1,25 @@
 .sidebar {
+    background-color: hsl(214, 27%, 10%);
+    color: hsl(220, 69%, 97%);
+    border-right: 1px solid #3E3F4E;
+    
     display: flex;
     flex-direction: column;
     position: sticky;
     left: 0;
     top: 0;
-    background-color: #2B2C37;
-    color: #fff;
-    width: 20vw;
+    min-width: 20vw;
     min-height: 100vh;
-    border-right: hsl(236, 11%, 25%) solid 1.5px;
 }
 
+.sidebar__header {
+    border-bottom: 1px solid hsl(236, 11%, 27%);
+    height: 6.0625rem;
+
+}
+
+.sidebar__nav {
+    display: flex;
+    flex-direction: column;
+    margin: 1.875rem;
+}
