@@ -2,12 +2,12 @@
     display: flex;
 }
 
-.content {
+.container__right {
     flex: 1;
     overflow: none;
 }
 
-.main {
-    display: flex;
-    justify-content: center;
+.main-content {
+    /* display: flex; */
+    /* justify-content: center; */
 }
