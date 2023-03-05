@@ -31,6 +31,15 @@ function Links() {
         />
         Issues
       </Link>
+      <Link to="/projects" className="link" role="link">
+        <img
+          src="../icon-projects.svg"
+          width="32px"
+          height="32px"
+          alt="List icon"
+        />
+        Reports
+      </Link>
       <Link to="/roles" className="link" role="link">
         <img
           src="../icon-settings.svg"
@@ -38,7 +47,7 @@ function Links() {
           height="32px"
           alt="Settings icon"
         />
-        Admin
+        Settings
       </Link>
     </>
   );

@@ -1,0 +1,11 @@
+.SplitPane {
+    display: flex;
+}
+
+.SplitPane__left {
+    width: 20%;
+}
+
+.SplitPane__right {
+    flex: 1;
+}

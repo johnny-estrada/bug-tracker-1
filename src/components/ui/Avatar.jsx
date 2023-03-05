@@ -1,10 +1,14 @@
-import "../../assets/styles/Avatar.css";
+import "./Avatar.css";
 
 function Avatar() {
   return (
-    <div className="avatar">
-      <button className="avatar__btn"></button>
-    </div>
+    <>
+      <img
+        src="./avatar.jpg"
+        class="Avatar"
+        alt="Avatar"
+      />
+    </>
   );
 }
 

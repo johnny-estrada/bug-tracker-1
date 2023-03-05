@@ -1,19 +1,19 @@
 import "../../assets/styles/Button.css";
 
-function Button() {
+function Settings() {
   return (
     <>
       <button className="button">
         <img
           className="button__img"
-          src="../icon-notification.svg"
+          src="../icon-settings.svg"
           alt="Notification icon"
-          width="30px"
-          height="30px"
+          width="35px"
+          height="35px"
         />
       </button>
     </>
   );
 }
 
-export default Button;
+export default Settings;

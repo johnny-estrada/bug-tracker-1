@@ -1,0 +1,99 @@
+.modal-background {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: hwb(0 0% 100% / 0.50);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-container {
+    width: 500px;
+    border-radius: 6px;
+    background-color: #2B2C37;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+
+   .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+  }
+
+  .form-label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 18px 0px 8px 0px;
+  }
+
+  .input-md {
+    height: 30px;
+    background: #2B2C37;
+    border: 1px solid rgba(130, 143, 163, 0.25);
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  .input-lg {
+    color: #fff;
+    background: #2B2C37;
+    border: 1px solid rgba(130, 143, 163, 0.25);
+    border-radius: 5px;
+    height: 86px;
+    margin-bottom: 15px;
+  }
+
+  .footer {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  
+  .primary-btn {
+    cursor: pointer;
+    width: 77px;
+    height: 45px;
+    border: none;
+    background-color: #635FC7;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .primary-btn:hover {
+    background-color: #A8A4FF;
+  }
+  
+  .secondary-btn {
+    background-color: #2B2C37;
+    cursor: pointer;
+    width: 77px;
+    height: 45px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .secondary-btn:hover {
+    background-color: #fff;
+    color: #635FC7;
+  }

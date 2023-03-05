@@ -1,0 +1,32 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 30px;
+}
+
+.breadcrumb__text {
+    margin: 30px 0 0 0;
+}
+
+.breadcrumb__item {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+
+    color: #828FA3;
+    padding-right: 10px;
+
+    /* Used to position the separator between items */
+    position: relative;
+}
+
+.breadcrumb__item:not(:last-child)::after {
+    /* Absolute position */
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(0.5rem, 0px);
+
+    content: '>';
+} 

@@ -1,15 +1,11 @@
-import Logo from "../components/ui/Logo";
-import Links from "../components/ui/Links";
-import "../assets/styles/Sidebar.css";
+import "./Sidebar.css";
 
-function Sidebar() {
+function Sidebar(props) {
   return (
     <aside className="sidebar">
-      <header className="sidebar__header">
-        <Logo />
-      </header>
+      <header className="sidebar__header">{props.logo}</header>
       <nav className="sidebar__nav" role="navigation">
-        <Links />
+        {props.links}
       </nav>
     </aside>
   );

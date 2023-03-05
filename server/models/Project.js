@@ -8,10 +8,18 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
+    brief: {
       type: DataTypes.STRING,
       allowNull: true,
     },
+    startDate: {
+      type: DataTypes.DATE,
+      allowNull: true,
+    },
+    launchDate: {
+      type: DataTypes.DATE,
+      allowNull: true,
+    }
   });
 
   return Project;

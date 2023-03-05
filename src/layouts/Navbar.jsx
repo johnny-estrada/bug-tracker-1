@@ -1,19 +1,12 @@
-import Searchbar from "../components/ui/Searchbar";
-import Settings from "../components/ui/Settings";
-import Notifications from "../components/ui/Button";
-import Avatar from "../components/ui/Avatar";
-import "../assets/styles/Navbar.css";
+import "./Navbar.css";
 
-function Navbar() {
+function Navbar(props) {
   return (
     <header className="navbar" role="banner">
-      <div className="navbar__left">
-        <Searchbar />
-      </div>
+      <div className="navbar__left">{props.searchbar}</div>
       <div className="navbar__right">
-        <Settings />
-        <Notifications />
-        <Avatar />
+        {props.notification}
+        {props.avatar}
       </div>
     </header>
   );

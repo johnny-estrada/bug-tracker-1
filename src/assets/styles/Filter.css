@@ -1,0 +1,27 @@
+.filter {
+    display: flex;
+    gap: 20px;
+    margin: 20px 30px;
+}
+
+.filter__button {
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 40px;
+    
+    background: #e7e5e5;
+    border: 1px solid #303134;
+    border-radius: 5px; 
+    cursor: pointer;
+
+    color: #828FA3;
+    font-weight: 700;
+}
+
+.filter__button:hover {
+    background-color: #fff;
+    color: #635FC7;
+}
