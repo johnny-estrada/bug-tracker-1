@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../assets/styles/Logo.css";
+import "./Logo.css";
 
 function Logo() {
   return (
@@ -9,8 +9,7 @@ function Logo() {
           className="logo__img"
           src="../../logo-bars.svg"
           alt="Logo"
-          width="30px"
-          height="30px"
+          width="32px"
         />
         <span className="logo__text">Issue Tracker</span>
       </Link>
